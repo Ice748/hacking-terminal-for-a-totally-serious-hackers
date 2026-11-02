@@ -19,6 +19,12 @@ The screenshots section is
 
 ---
 
+## Tech stack
+- Programming language: **C23**
+- Game library: **raylib**
+
+---
+
 ## How to download
 1. Go to the [Releases](https://github.com/Ice748/hacking-terminal-for-a-totally-serious-hackers/releases) page.
 2. Open the **latest** release.
