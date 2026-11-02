@@ -22,4 +22,14 @@ The screenshots section is
 ## How to download
 1. Go to the [Releases](https://github.com/Ice748/hacking-terminal-for-a-totally-serious-hackers/releases) page.
 2. Open the **latest** release.
-3. Download the `hacking-terminal-for-a-totally-serious-hackers.exe` (for Windows) or `hacking-terminal-for-a-totally-serious-hackers` (for Linux/macOS).
+3. Download the `htfatsh.exe` (for Windows) or `htfatsh` (for Linux/macOS).
+
+## How to build
+1. Make sure you have any of the **C** compilers and **raylib** installed on you computer.  
+   (for example, I use `gcc` compiler)
+3. Download the repository source code ***or*** just clone it.
+4. Open the repository folder.
+5. Run this command:  
+   **For Windows**: `gcc src/*.c -o htfatsh.exe -Iincludes -lraylib -lopengl32 -lgdi32 -lwinmm`  
+   **For Linux**: `gcc main.c -o htfatsh -Iincludes -lraylib -lGL -lm -lpthread -ldl -lrt -lX11`  
+   **For macOS**: `gcc main.c -o htfatsh -Iincludes -lraylib -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo`
