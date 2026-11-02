@@ -49,3 +49,6 @@ The screenshots section is
 ```
 This is **Arni**!  
 He's mascot of this project.
+
+## Support ❤️
+You can easily support this project — just **star** this repository and you'll make me ***REALLY happy! :D***
