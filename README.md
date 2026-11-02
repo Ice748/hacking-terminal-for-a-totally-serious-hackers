@@ -39,3 +39,13 @@ The screenshots section is
    **For Windows**: `gcc src/*.c -o htfatsh.exe -Iincludes -lraylib -lopengl32 -lgdi32 -lwinmm`  
    **For Linux**: `gcc main.c -o htfatsh -Iincludes -lraylib -lGL -lm -lpthread -ldl -lrt -lX11`  
    **For macOS**: `gcc main.c -o htfatsh -Iincludes -lraylib -framework OpenGL -framework Cocoa -framework IOKit -framework CoreVideo`
+
+---
+
+## Arni
+```text
+|\__/ |  ( )
+|o o  |   ) )
+```
+This is **Arni**!  
+He's mascot of this project.
