@@ -52,3 +52,8 @@ He's mascot of this project.
 
 ## Support ❤️
 You can easily support this project — just **star** this repository and you'll make me ***REALLY happy! :D***
+
+---
+
+## License
+This project is licensed under the MIT license — see the [LICENSE](LICENSE) file for details.
