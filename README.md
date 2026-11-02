@@ -1,6 +1,6 @@
 <div align="center">
 
-# hacking terminal<br>for a totaly serious hackers
+# hacking terminal<br>for a totally serious hackers
 A **100%** serious hacking terminal for **elite cyber-criminals**.  
 *(Created for learning purposes, of course)*
 
@@ -16,3 +16,10 @@ A **100%** serious hacking terminal for **elite cyber-criminals**.
 ## Screenshots
 The screenshots section is  
 *Coming soon...*
+
+---
+
+## How to download
+1. Go to the [Releases](https://github.com/Ice748/hacking-terminal-for-a-totally-serious-hackers/releases) page.
+2. Open the **latest** release.
+3. Download the `hacking-terminal-for-a-totally-serious-hackers.exe` (for Windows) or `hacking-terminal-for-a-totally-serious-hackers` (for Linux/macOS).
