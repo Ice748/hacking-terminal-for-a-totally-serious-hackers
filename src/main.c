@@ -1,6 +1,18 @@
 #include "raylib.h"
+#include <string.h>
+#include <stdio.h>
 
-#define MAX_INPUT_CHARS 20
+#define MAX_INPUT_CHARS 32
+#define AMOGUS "     #####\n"\
+"###        ####\n"\
+"#  #             #\n"\
+"#  #        ####\n"\
+"#  #        #\n"\
+"#  #        # when the\n"\
+"###        # imposter sus\n"\
+"    ######\n"\
+"    ###  ##\n"\
+"    ###  ##\n"
 
 int main(void) {
   char text[1024] = "Welcome to a hacking terminal for a totally serious hackers!\nA 100% serious hacking tool for elite cyber-criminals.\n\n> ";
@@ -27,9 +39,21 @@ int main(void) {
         input[letterCount] = '\0';
     }
 
+    if (IsKeyPressed(KEY_ENTER)) {
+      if (strcmp(input, "amogus") == 0) {
+        sprintf(text, "%s\n> ", AMOGUS);
+
+      }
+
+      while (letterCount > 0) {
+        letterCount--;
+        input[letterCount] = '\0';
+      }
+    }
+
     BeginDrawing();
       ClearBackground(BLACK);
-      DrawText(TextFormat("%s%s", text, input), 0, 0, 16, GREEN);
+      DrawText(TextFormat("%s%s", text, input), 0, 0, 24, GREEN);
     EndDrawing();
   }
 
