@@ -13,6 +13,8 @@
 "    ######\n"\
 "    ###  ##\n"\
 "    ###  ##\n"
+#define ARNI "wassup |\__/ |  ( )\n"\
+"dude |o o  |   ) )\n"
 
 int main(void) {
   char text[1024] = "Welcome to a hacking terminal for a totally serious hackers!\nA 100% serious hacking tool for elite cyber-criminals.\n\n> ";
@@ -42,6 +44,8 @@ int main(void) {
     if (IsKeyPressed(KEY_ENTER)) {
       if (strcmp(input, "amogus") == 0) {
         sprintf(text, "> %s\n%s\n\n> ", input, AMOGUS);
+      } else if (strcmp(input, "arni") == 0) {
+        sprintf(text, "> %s\n%s\n\n> ", input, ARNI);
       } else if (strcmp(input, "exit") == 0) {
         break;
       } else if (input[0] == '\0') {
