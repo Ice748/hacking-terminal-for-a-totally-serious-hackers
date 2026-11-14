@@ -44,7 +44,7 @@ int main(void) {
         sprintf(text, "> %s\n%s\n> ", input, AMOGUS);
       } else if (strcmp(input, "exit") == 0) {
         break;
-      } else if (index[0] = '\0') {
+      } else if (input[0] = '\0') {
         strcpy(text, "> ");
       } else {
         sprintf(text, "> %s\num.. idk what does '%s' means bruh.\n> ", input, input);
