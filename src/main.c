@@ -41,13 +41,13 @@ int main(void) {
 
     if (IsKeyPressed(KEY_ENTER)) {
       if (strcmp(input, "amogus") == 0) {
-        sprintf(text, "> %s\n%s\n> ", input, AMOGUS);
+        sprintf(text, "> %s\n%s\n\n> ", input, AMOGUS);
       } else if (strcmp(input, "exit") == 0) {
         break;
       } else if (input[0] == '\0') {
         strcpy(text, "> ");
       } else {
-        sprintf(text, "> %s\num.. idk what does '%s' means bruh.\n> ", input, input);
+        sprintf(text, "> %s\num.. idk what does '%s' means bruh.\n\n> ", input, input);
       }
 
       while (letterCount > 0) {
