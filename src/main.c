@@ -12,9 +12,9 @@
 "###        # imposter sus\n"\
 "    ######\n"\
 "    ###  ##\n"\
-"    ###  ##\n"
+"    ###  ##"
 #define ARNI "wassup |\\__/ |  ( )\n"\
-"dude    |o o  |   ) )\n"
+"dude    |o o    |   ) )"
 
 int main(void) {
   char text[1024] = "Welcome to a hacking terminal for a totally serious hackers!\nA 100% serious hacking tool for elite cyber-criminals.\n\n> ";
