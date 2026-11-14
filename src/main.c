@@ -13,7 +13,7 @@
 "    ######\n"\
 "    ###  ##\n"\
 "    ###  ##\n"
-#define ARNI "wassup |\__/ |  ( )\n"\
+#define ARNI "wassup |\\__/ |  ( )\n"\
 "dude |o o  |   ) )\n"
 
 int main(void) {
