@@ -48,6 +48,8 @@ int main(void) {
         sprintf(text, "> %s\n%s\n\n> ", input, ARNI);
       } else if (strcmp(input, "hi") == 0 || strcmp(input, "hello") == 0) {
         sprintf(text, "> %s\nwassup dude, are you new here?\nwell, type 'help' if you want to get some help ig\num, nice to meet you! I should have say it earlier...\n\n> ", input);
+      } else if (strcmp(input, "help") == 0) {
+        sprintf(text, "> %s\nhere is a guide for all the commands:\namogus: when the imposter sus, that is the 1st command btw\narni: outputs arni!\nhelp: you just ran that command bruh.\nnexit: exit\n\n> ", input);
       } else if (strcmp(input, "exit") == 0) {
         break;
       } else if (input[0] == '\0' || strcmp(input, "clear") == 0) {
