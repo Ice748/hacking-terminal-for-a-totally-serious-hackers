@@ -46,6 +46,8 @@ int main(void) {
         sprintf(text, "> %s\n%s\n\n> ", input, AMOGUS);
       } else if (strcmp(input, "arni") == 0) {
         sprintf(text, "> %s\n%s\n\n> ", input, ARNI);
+      } else if (strcmp(input, "hi") == 0 || strcmp(input, "hello") == 0) {
+        sprintf(text, "> %s\nwassup dude, are you new here?\nwell, type 'help' if you want to get some help ig\num, nice to meet you! I should have say it earlier...\n\n> ", input);
       } else if (strcmp(input, "exit") == 0) {
         break;
       } else if (input[0] == '\0' || strcmp(input, "clear") == 0) {
