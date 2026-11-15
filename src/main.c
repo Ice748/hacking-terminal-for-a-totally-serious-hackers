@@ -48,8 +48,10 @@ int main(void) {
         sprintf(text, "> %s\n%s\n\n> ", input, ARNI);
       } else if (strcmp(input, "exit") == 0) {
         break;
-      } else if (input[0] == '\0') {
+      } else if (input[0] == '\0' || strcmp(input, "clear") == 0) {
         strcpy(text, "> ");
+      } else if (strcmp(input, "reallyreallysecretcommand123") == 0) {
+        sprintf(text, "> %s\nwait, WHAT?!! how did you know about that command???!\nits a really secret command!!\n\n> ", input);
       } else {
         sprintf(text, "> %s\num.. idk what does '%s' means bruh.\n\n> ", input, input);
       }
